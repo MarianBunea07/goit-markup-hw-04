@@ -1,0 +1,224 @@
+:root {
+    --primary-color: #434455;
+    --secondary-color: #2e2f42;
+    --button-background-color: #4d5ae5;
+    --visited-links: #b900b9;
+    --background-color: #fff;
+    --hover-color: #0606bd;
+    --footer-section-color: #2e2f42;
+    --border-color: #e7e9fc;
+    --heading-font-family: "Raleway",
+        sans-serif;
+    --text-font-family: "Roboto",
+        sans-serif;
+}
+
+/* Information about font color and font family */
+* {
+    body {
+        font-family: var(--text-font-family);
+        color: var(--primary-color);
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+.global-header .main-nav a {
+    text-decoration: none;
+}
+
+.container{
+    width: 1200px;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+}
+
+.container-nav-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link-color {
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+/* Information about Logo */
+.logo::before {
+    content: "WEB";
+    color: var(--button-background-color);
+    font-family: var(--heading-font-family);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16667;
+}
+
+.atribut-logo {
+    font-family: var(--heading-font-family);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+}
+
+.logo,
+.atribut-logo a {
+    text-decoration: none;
+}
+
+
+/* Information about links */
+.global-header .link-color a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--secondary-color);
+}
+
+.link-color a:visited {
+    color: var(--visited-links);
+}
+
+/* Information about contacts data */
+.mail {
+    font-size: 16px;
+    line-height: 1.5em;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.mail:hover,
+.mail:focus {
+    color: var(--hover-color);
+}
+
+.tel {
+    font-size: 16px;
+    line-height: 1.5em;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.tel:hover,
+.tel:focus {
+    color: var(--hover-color);
+}
+
+.hover-link:hover a {
+    color: var(--hover-color);
+}
+
+/* Information about buttons style */
+
+.button-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.btn-filter {
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+    padding: 12px 24px;
+    width: 116px;
+    height: 48px;
+    background-color: #f4f4fd;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #4d5ae5;
+    cursor: pointer;
+}
+
+.btn-filter:hover {
+    background-color: var(--button-background-color);
+    color: #fff;
+}
+
+.btn-filter:focus {
+    background-color: var(--button-background-color);
+    color: #fff;
+    outline-color: transparent;
+}
+
+/* Information about Cards */
+
+.project-card-list {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 20px;
+}
+
+.project-card {
+    border: 1em solid #e7e9fc;
+    width: 360px;
+    height: 420px;
+    background: #fff;
+}
+
+/* Information about card contents */
+.card-content {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+    padding-left: 16px;
+}
+
+.card-content-information {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-left: 16px;
+}
+
+/* About footer section */
+
+.footer-section-portfolio {
+    background: var(--secondary-color);
+    display:flex;
+    justify-content: center;
+    height: 300px;
+    padding-left: 100px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.footer-logo::after {
+    content: "STUDIO";
+    color: var(--background-color);
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16667;
+}
+
+.footer-logo-studio {
+    font-family: var(--heading-font-family);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--background-color)
+}
+
+.footer-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--background-color)
+}
