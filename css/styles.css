@@ -369,9 +369,10 @@ height: 20px;
 color: var(--icons-color);
 }
 
+/* BACKGROUND */
 
 .hero-section{
-    background-image: url(../images/people-office\ 1.jpg); 
+    background-image: url(../images/people-office\ 1.jpg);
     height: 600px;
     width: 1440px;
     display: flex;
@@ -380,6 +381,39 @@ color: var(--icons-color);
 }
 
 /* CUSTOMERS SECTION */
+.section-list{
+    list-style-type: none;
+    display: flex;
+}
+
+.customers-heading{
+    margin-left: 629px;
+}
+
+/* FOOTER SVG-S SECTION */
+
+.footer-social-links-list{
+    list-style-type: none;
+}
+
+.footer-svg{
+width: 24px;
+height: 24px;
+background-color: var(--icons-background);
+border-radius: 50%;
+}
+
+.footer-social-links-list{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:16px;
+}
+.footer-heading{
+    font-family: var(--text-font-family);
+    width: 96px;
+    height: 24px;
+}
 
 
     
