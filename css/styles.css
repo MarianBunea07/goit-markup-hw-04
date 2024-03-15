@@ -244,7 +244,7 @@ section {
     display: flex;
     justify-content: center;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 87px auto;
     padding: 0 15px;
     flex-wrap: wrap;
 }
@@ -334,7 +334,6 @@ offer-card-item {}
     display: flex;
     flex-direction: column;
     position: relative;
-    right: 410px;
 }
 
 /* SVG-URI */
@@ -403,17 +402,39 @@ background-color: var(--icons-background);
 border-radius: 50%;
 }
 
-.footer-social-links-list{
-    display:flex;
+.footer-social-links-list {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    gap:16px;
+    gap: 16px;
+}.footer-social-links-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
 }
 .footer-heading{
     font-family: var(--text-font-family);
+    color:#ffffff;
+    font-weight: 500;
     width: 96px;
     height: 24px;
 }
+
+.features-icon-list {
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background-color: #f4f4fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+
+
+
 
 
     
