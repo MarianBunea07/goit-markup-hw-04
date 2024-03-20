@@ -46,6 +46,19 @@
     background: #ffffff;
 }
 
+.h1-header{
+    
+   
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+    width: 496px;
+    margin-bottom: 48px;
+}
+
 .menu-items>li>a {
     text-decoration: none;
 }
