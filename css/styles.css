@@ -95,6 +95,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: var(--transition);
 }
 
 .order-button:hover {
@@ -264,7 +265,7 @@ section {
 }
 
 a{
-    transition:color var(--transition)
+    transition: var(--transition);
 }
 
 .title {
@@ -360,7 +361,7 @@ offer-card-item {}
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-top: 16px;
+    margin-top: 10px;
 }
 .icons-list .icon svg{
 width: 20px;
@@ -368,8 +369,8 @@ height: 20px;
 }
 
 .icon-list .icon{
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     background-color: var(--icons-background);
     border-radius: 50%;
     display:flex;
@@ -389,7 +390,7 @@ color: var(--icons-color);
 /* BACKGROUND */
 
 .hero-section{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../images/people-office\ 1.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(../images/people-office.png);
     height: 600px;
     width: 1440px;
     display: flex;
@@ -404,7 +405,7 @@ color: var(--icons-color);
 }
 
 .customers-heading{
-    margin-left: 710px;
+    margin-left: 720px;
 }
 
 /* FOOTER SVG-S SECTION */
