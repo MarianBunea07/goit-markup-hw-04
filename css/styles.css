@@ -96,6 +96,7 @@
     align-items: center;
     justify-content: center;
     transition: var(--transition);
+    outline:none;
 }
 
 .order-button:hover {
